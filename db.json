@@ -1,0 +1,234 @@
+{
+  "productList": [
+    {
+      "productName": "Aman nema",
+      "productCategory": "accessories",
+      "date": "2022-11-11T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 1200,
+      "description": "Headphone",
+      "id": 1
+    },
+    {
+      "productName": "Priyanka",
+      "productCategory": "womens wear",
+      "date": "2022-11-10T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 50000,
+      "description": "Floral print salwar Suit",
+      "id": 3
+    },
+    {
+      "productName": "Poonam ",
+      "productCategory": "grocerry",
+      "date": "2022-11-14T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 1200,
+      "description": "Good one!",
+      "id": 4
+    },
+    {
+      "productName": "Tuktuk",
+      "productCategory": "mens wear",
+      "date": "2022-11-02T18:30:00.000Z",
+      "productCondition": "second-hand",
+      "price": 1000,
+      "description": "leather jacket",
+      "id": 5
+    },
+    {
+      "productName": "Bulbul",
+      "productCategory": "electronics",
+      "date": "2022-11-13T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 30000,
+      "description": "One plus Nord",
+      "id": 6
+    },
+    {
+      "productName": "Anu",
+      "productCategory": "accessories",
+      "date": "2022-10-14T18:30:00.000Z",
+      "productCondition": "refurbised",
+      "price": 4000,
+      "description": "boat wireless headset: a nice product",
+      "id": 7
+    },
+    {
+      "productName": "Aman",
+      "productCategory": "grocerry",
+      "date": "2022-09-06T18:30:00.000Z",
+      "productCondition": "second-hand",
+      "price": 4588,
+      "description": "To check snackbar",
+      "id": 9
+    },
+    {
+      "productName": "nema",
+      "productCategory": "electronics",
+      "date": "2022-11-14T18:30:00.000Z",
+      "productCondition": "refurbised",
+      "price": 5778,
+      "description": "Snack bar working",
+      "id": 10
+    },
+    {
+      "productName": "its_aman007@rediffmail.com",
+      "productCategory": "kids wear",
+      "date": "2022-11-09T18:30:00.000Z",
+      "productCondition": "refurbised",
+      "price": 1000,
+      "description": "Wow!!!!",
+      "id": 11
+    },
+    {
+      "productName": "Anjaan",
+      "productCategory": "kids wear",
+      "date": "2022-11-06T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 34555,
+      "description": "This is added successfully",
+      "id": 12
+    },
+    {
+      "productName": "hello",
+      "productCategory": "grocerry",
+      "date": "2022-10-31T18:30:00.000Z",
+      "productCondition": "refurbised",
+      "price": 8000,
+      "description": "nice",
+      "id": 13
+    },
+    {
+      "productName": "pratibha ",
+      "productCategory": "electronics",
+      "date": "2022-11-01T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 50000,
+      "description": "my new phone",
+      "id": 14
+    },
+    {
+      "productName": "sarvesh",
+      "productCategory": "mens wear",
+      "date": "2022-09-30T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 5900,
+      "description": "nike shoes",
+      "id": 15
+    },
+    {
+      "productName": "Don007",
+      "productCategory": "mens wear",
+      "date": "2022-11-16T18:30:00.000Z",
+      "productCondition": "second-hand",
+      "price": 100,
+      "description": "sabji wala",
+      "id": 16
+    },
+    {
+      "productName": "ramesh",
+      "productCategory": "mens wear",
+      "date": "2022-11-14T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 7000,
+      "description": "denim jeans - 2 set",
+      "id": 17
+    },
+    {
+      "productName": "Mr bean",
+      "productCategory": "mens wear",
+      "date": "2022-12-03T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 4500,
+      "description": "Good quality T-shirt",
+      "id": 18
+    },
+    {
+      "productName": "Mouser soft airgun",
+      "productCategory": "electronics",
+      "date": "2022-11-14T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 35000,
+      "description": "Nice product for kids.",
+      "id": 19
+    }
+  ],
+  "users": [
+    {
+      "fname": "Aman",
+      "lname": "nema",
+      "phone": "+918357856433",
+      "email": "its_aman007@rediffmail.com",
+      "password": "Amannema@123",
+      "id": 1
+    },
+    {
+      "fname": "Ashok",
+      "lname": "nema",
+      "phone": "9407864317",
+      "email": "ashoknema57@gmail.com",
+      "password": "papa@123",
+      "id": 2
+    },
+    {
+      "fname": "Aman",
+      "lname": "nema",
+      "phone": "7222909056",
+      "email": "aman07nema@gmail.com",
+      "password": "tuktuk1994",
+      "id": 3
+    },
+    {
+      "fname": "Tuktuk",
+      "lname": "nema",
+      "phone": "+918357856433",
+      "email": "amannema@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "fname": "abc",
+      "lname": "xyz",
+      "phone": "1234567890",
+      "email": "asdf@yzmail.com",
+      "password": "1234asdf",
+      "id": 5
+    },
+    {
+      "fname": "poonam",
+      "lname": "nema",
+      "phone": "7999856630",
+      "email": "poonamnema90@gmail.com",
+      "password": "asdfpoonam",
+      "id": 6
+    },
+    {
+      "fname": "Bulbul",
+      "lname": "Nema",
+      "phone": "7582845547",
+      "email": "bulbulnema1998@gmail.com",
+      "password": "bulbulnema",
+      "id": 7
+    },
+    {
+      "fname": "Tuktuk",
+      "lname": "nema",
+      "phone": "123456",
+      "email": "aman@nema.gmail.com",
+      "password": "tuktuk123",
+      "id": 8
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <p class="h1">Register</p>
+          <h6>
+            Please fill this form to create
+            <span class="text-warning">Account</span>
+          </h6>
+        </div>
+        <br />
+        <form [formGroup]="signupForm" (ngSubmit)="SignUp()">
+          <div class="mb-3">
+            <label for="fname" class="form-label">First Name</label>
+            <input
+              formControlName="fname"
+              type="text"
+              class="form-control"
+              id="fname"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="lname" class="form-label">Last Name</label>
+            <input
+              formControlName="lname"
+              type="text"
+              class="form-control"
+              id="lname"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="tel" class="form-label">Phone</label>
+            <input
+              formControlName="phone"
+              type="tel"
+              class="form-control"
+              id="tel"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              formControlName="email"
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              formControlName="password"
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <button type="submit" class="btn btn-warning" [disabled]="!signupForm.valid">Register</button>
+        </form>
+        <br />
+        <a routerLink="/login" style="color: aliceblue; text-decoration: none"
+          >Already registered? Click to Login</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

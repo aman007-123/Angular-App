@@ -1,0 +1,25 @@
+.card {
+  margin-top: 10px;
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: hsl(178, 68%, 48%);
+  background: linear-gradient(
+    90deg,
+    hsl(178, 68%, 48%) 0%,
+    hsl(292, 62%, 61%) 100%
+  );
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.card h6 {
+  font-size: 18px;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
