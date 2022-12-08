@@ -150,8 +150,17 @@
       "date": "2022-11-14T18:30:00.000Z",
       "productCondition": "brand-new",
       "price": 35000,
-      "description": "Nice product for kids.",
+      "description": "Nice product for kids",
       "id": 19
+    },
+    {
+      "productName": "watch",
+      "productCategory": "accessories",
+      "date": "2022-12-06T18:30:00.000Z",
+      "productCondition": "second-hand",
+      "price": 9000,
+      "description": "apple watch",
+      "id": 20
     }
   ],
   "users": [
@@ -220,12 +229,36 @@
       "id": 8
     },
     {
-      "fname": "",
-      "lname": "",
-      "phone": "",
-      "email": "",
-      "password": "",
+      "fname": "priyanka",
+      "lname": "nema",
+      "phone": "8827504735",
+      "email": "pri.nema77@gmail.com",
+      "password": "pinku@123",
       "id": 9
+    },
+    {
+      "fname": "tony",
+      "lname": "stark",
+      "phone": "44455566687",
+      "email": "tony@stark.com",
+      "password": "ironsuitmark-42",
+      "id": 10
+    },
+    {
+      "fname": "wer",
+      "lname": "sdf",
+      "phone": "23456",
+      "email": "title@x.com",
+      "password": "spacex",
+      "id": 11
+    },
+    {
+      "fname": "sultan",
+      "lname": "mirza",
+      "phone": "8900100100",
+      "email": "sultan@mirza.com",
+      "password": "onceuponatimeinmumbai",
+      "id": 12
     }
   ],
   "profile": {

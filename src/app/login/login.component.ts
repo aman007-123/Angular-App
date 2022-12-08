@@ -23,16 +23,16 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.loginForm = this.formbuilder.group({
-      email: ['',[Validators.required,Validators.email]],
-      password: ['',Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', Validators.required],
     });
   }
 
   login() {
     this.submitted = true;
-    if(this.loginForm.invalid){
-      return 
-    }else{
+    if (this.loginForm.invalid) {
+      return;
+    } else {
       this.http.get<any>('http://localhost:3000/users').subscribe(
         (res) => {
           const users = res.find((el: any) => {
@@ -42,9 +42,9 @@ export class LoginComponent implements OnInit {
             );
           });
           if (users) {
-            this.api.openSnackBar('Login Successfully!');
             this.loginForm.reset();
             this.route.navigate(['dashboard']);
+            this.api.openSnackBar('Login Successfully!');
           } else {
             this.api.openSnackBar('User not found');
           }
@@ -54,6 +54,5 @@ export class LoginComponent implements OnInit {
         }
       );
     }
-    
   }
 }

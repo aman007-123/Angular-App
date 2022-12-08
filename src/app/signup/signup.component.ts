@@ -20,11 +20,11 @@ export class SignupComponent implements OnInit {
 
   ngOnInit(): void {
     this.signupForm = this.formbuilder.group({
-      fname: ['',Validators.required],
-      lname: ['',Validators.required],
-      phone: ['',Validators.required],
-      email: ['',[Validators.required,Validators.email]],
-      password: ['',Validators.required],
+      fname: ['', Validators.required],
+      lname: ['', Validators.required],
+      phone: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', Validators.required],
     });
   }
 
@@ -33,9 +33,9 @@ export class SignupComponent implements OnInit {
       .post<any>('http://localhost:3000/users', this.signupForm.value)
       .subscribe(
         (res) => {
-          this.api.openSnackBar('Registered successfully!');
           this.signupForm.reset();
           this.route.navigate(['login']);
+          this.api.openSnackBar('Registered successfully!');
         },
         (err) => {
           this.api.openSnackBar('Something went wrong');

@@ -7,24 +7,21 @@ import {
 } from '@angular/material/snack-bar';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ApiService {
-
-  constructor(private http: HttpClient,
-    private _snackBar: MatSnackBar
-  ) { }
+  constructor(private http: HttpClient, private _snackBar: MatSnackBar) {}
 
   horizontalPosition: MatSnackBarHorizontalPosition = 'center';
   verticalPosition: MatSnackBarVerticalPosition = 'top';
   durationInSeconds = 3;
 
   postProduct(data: any) {
-    return this.http.post<any>("http://localhost:3000/productList/", data);
+    return this.http.post<any>('http://localhost:3000/productList/', data);
   }
 
   getProduct() {
-    return this.http.get<any>("http://localhost:3000/productList/");
+    return this.http.get<any>('http://localhost:3000/productList/');
   }
 
   putProduct(data: any, id: number) {
@@ -40,10 +37,11 @@ export class ApiService {
       horizontalPosition: this.horizontalPosition,
       verticalPosition: this.verticalPosition,
       duration: this.durationInSeconds * 1000,
+      panelClass: ['green-snackbar'],
     });
   }
 
-  showUsers(){
-    return this.http.get<any>('http://localhost:3000/users')
+  showUsers() {
+    return this.http.get<any>('http://localhost:3000/users');
   }
 }

@@ -61,11 +61,18 @@
               id="exampleInputPassword1"
             />
           </div>
-          <button type="submit" class="btn btn-warning" [disabled]="!signupForm.valid">Register</button>
+          <button
+            type="submit"
+            class="btn btn-warning"
+            [disabled]="!signupForm.valid"
+          >
+            Register
+          </button>
         </form>
         <br />
         <a routerLink="/login" style="color: aliceblue; text-decoration: none"
-          >Already registered? Click to Login</a
+          >Already registered?
+          <span class="text-warning">Click to Login</span></a
         >
       </div>
     </div>
