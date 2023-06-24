@@ -5,8 +5,8 @@
         <div class="text-center">
           <p class="h1">Login</p>
           <h6>
-            Please enter <span class="text-warning">User</span> and
-            <span class="text-warning">Password</span>
+            Please enter <span class="text-primary">User</span> and
+            <span class="text-primary">Password</span>
           </h6>
         </div>
         <br />
@@ -22,7 +22,18 @@
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
-            <!-- <p *ngFor="loginForm.control['email'].haserror(required)">Email is required</p> -->
+            <div
+              *ngIf="
+              loginForm.controls['email'].errors?.['emailInvalid'] &&
+                loginForm.controls['email'].touched
+              "
+              class="text-danger"
+            >
+              Invalid Email format!
+              <p *ngIf="loginForm.controls['email'].errors?.['required']">
+                Email is required!!
+              </p>
+            </div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label"
@@ -34,18 +45,24 @@
               class="form-control"
               id="exampleInputPassword1"
             />
+            <div
+              *ngIf="
+                loginForm.controls['password'].errors &&
+                loginForm.controls['password'].touched
+              "
+              class="text-danger"
+            >
+              Password should be minimum 6 characters!
+              <p *ngIf="loginForm.controls['password'].errors?.['required']">
+                Password is required!!
+              </p>
+            </div>
           </div>
-          <button
-            type="submit"
-            class="btn btn-warning"
-            [disabled]="!loginForm.valid"
-          >
-            Login
-          </button>
+          <button type="submit" class="btn btn-info">Login</button>
         </form>
         <br />
-        <a routerLink="/signup" style="color: aliceblue; text-decoration: none"
-          >New User ? <span class="text-warning">Click to Register</span></a
+        <a routerLink="/signup" style="color: #000; text-decoration: none"
+          >New User ? <span class="text-primary">Click to Register</span></a
         >
       </div>
     </div>

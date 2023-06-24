@@ -8,7 +8,7 @@ import { ApiService } from '../services/api.service';
   styleUrls: ['./user.component.css'],
 })
 export class UserComponent implements OnInit {
-  title = 'Material-UI (CRUD)';
+  title = 'Product List (CRUD)';
   userList: any = [];
 
   constructor(private api: ApiService, private route: Router) {}
@@ -19,6 +19,7 @@ export class UserComponent implements OnInit {
     });
   }
   logout() {
+    localStorage.clear();
     this.route.navigate(['login']);
   }
 }

@@ -14,7 +14,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent implements OnInit {
-  title = 'Material-UI (CRUD)';
+  title = 'Product List App';
+  public loading: boolean = false;
+  public errorMessage: string | null = null;
 
   displayedColumns: string[] = [
     'id',
@@ -54,18 +56,23 @@ export class DashboardComponent implements OnInit {
     this.route.navigate(['users']);
   }
   logout() {
+    localStorage.clear();
     this.route.navigate(['login']);
   }
 
   getAllProducts() {
+    this.loading = true;
     this.api.getProduct().subscribe({
       next: (res) => {
         this.dataSource = new MatTableDataSource(res);
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
+        this.loading = false;
       },
-      error: (err) => {
+      error: (error) => {
         this.api.openSnackBar('Error on fetching the records!');
+        this.loading = false;
+        this.errorMessage = error;
       },
     });
   }

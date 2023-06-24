@@ -13,6 +13,22 @@
   </button>
 </mat-toolbar>
 
+<!-- Loading spinner -->
+<div *ngIf="loading">
+  <app-loader></app-loader>
+</div>
+
+<!-- Error message -->
+<div *ngIf="!loading && errorMessage">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold text-center">{{ errorMessage }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <div>
     <mat-form-field appearance="standard">

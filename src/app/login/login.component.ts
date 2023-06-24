@@ -1,7 +1,12 @@
 import { group } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import {
+  FormGroup,
+  FormBuilder,
+  Validators,
+  FormControl,
+} from '@angular/forms';
 import { Router } from '@angular/router';
 import { ApiService } from '../services/api.service';
 
@@ -13,6 +18,7 @@ import { ApiService } from '../services/api.service';
 export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
   submitted = false;
+  responseData: any;
 
   constructor(
     private formbuilder: FormBuilder,
@@ -23,15 +29,16 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.loginForm = this.formbuilder.group({
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', Validators.required],
+      email: ['', [this.validateEmail, Validators.required]],
+      password: ['', [Validators.required, Validators.minLength(6)]],
     });
   }
 
   login() {
     this.submitted = true;
     if (this.loginForm.invalid) {
-      return;
+      this.api.openSnackBar('Please Enter Email and Passowrd!!');
+      this.loginForm.reset();
     } else {
       this.http.get<any>('http://localhost:3000/users').subscribe(
         (res) => {
@@ -42,11 +49,14 @@ export class LoginComponent implements OnInit {
             );
           });
           if (users) {
+            localStorage.setItem('isLoggedIn', 'true');
+            this.api.openSnackBar('Login Successfully!');
             this.loginForm.reset();
             this.route.navigate(['dashboard']);
-            this.api.openSnackBar('Login Successfully!');
           } else {
+            localStorage.clear();
             this.api.openSnackBar('User not found');
+            // this.loginForm.reset();
           }
         },
         (err) => {
@@ -54,5 +64,17 @@ export class LoginComponent implements OnInit {
         }
       );
     }
+  }
+
+  validateEmail(c: FormControl): any {
+    let EMAIL_REGEXP =
+      /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+    return EMAIL_REGEXP.test(c.value)
+      ? null
+      : {
+          emailInvalid: {
+            message: 'Invalid Format!',
+          },
+        };
   }
 }

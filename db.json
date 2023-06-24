@@ -1,264 +1,122 @@
 {
   "productList": [
     {
-      "productName": "Aman nema",
-      "productCategory": "accessories",
-      "date": "2022-11-11T18:30:00.000Z",
+      "productName": "AccuSure BP-operator",
+      "productCategory": "electronics",
+      "date": "2023-05-11T18:30:00.000Z",
       "productCondition": "brand-new",
       "price": 1200,
-      "description": "Headphone",
+      "description": "Accu pressure BP/pulse monitor",
       "id": 1
     },
     {
-      "productName": "Priyanka",
-      "productCategory": "womens wear",
-      "date": "2022-11-10T18:30:00.000Z",
+      "productName": "Watch",
+      "productCategory": "mens wear",
+      "date": "2023-05-09T18:30:00.000Z",
       "productCondition": "brand-new",
-      "price": 50000,
-      "description": "Floral print salwar Suit",
+      "price": 2500,
+      "description": "Wrist watch",
+      "id": 2
+    },
+    {
+      "productName": "realme X8500",
+      "productCategory": "electronics",
+      "date": "2023-05-11T18:30:00.000Z",
+      "productCondition": "second-hand",
+      "price": 8000,
+      "description": "Second hand mobile phone",
       "id": 3
     },
     {
-      "productName": "Poonam ",
-      "productCategory": "grocerry",
-      "date": "2022-11-14T18:30:00.000Z",
+      "productName": "Back cover",
+      "productCategory": "accessories",
+      "date": "2023-05-10T18:30:00.000Z",
       "productCondition": "brand-new",
-      "price": 1200,
-      "description": "Good one!",
+      "price": 500,
+      "description": "Back cover for realme X8500 phone",
       "id": 4
     },
     {
-      "productName": "Tuktuk",
+      "productName": "Shoes",
       "productCategory": "mens wear",
-      "date": "2022-11-02T18:30:00.000Z",
-      "productCondition": "second-hand",
-      "price": 1000,
-      "description": "leather jacket",
+      "date": "2023-05-10T18:30:00.000Z",
+      "productCondition": "brand-new",
+      "price": 4000,
+      "description": "Nike shoes",
       "id": 5
     },
     {
-      "productName": "Bulbul",
-      "productCategory": "electronics",
-      "date": "2022-11-13T18:30:00.000Z",
+      "productName": "Nestle Meggi",
+      "productCategory": "grocerry",
+      "date": "2023-05-11T18:30:00.000Z",
       "productCondition": "brand-new",
-      "price": 30000,
-      "description": "One plus Nord",
+      "price": 150,
+      "description": "1 packet of 4 Meggi.",
       "id": 6
     },
     {
-      "productName": "Anu",
-      "productCategory": "accessories",
-      "date": "2022-10-14T18:30:00.000Z",
+      "productName": "mobile",
+      "productCategory": "electronics",
+      "date": "2023-05-14T18:30:00.000Z",
       "productCondition": "refurbised",
-      "price": 4000,
-      "description": "boat wireless headset: a nice product",
+      "price": 30000,
+      "description": "Apple iphone 13",
       "id": 7
     },
     {
-      "productName": "Aman",
-      "productCategory": "grocerry",
-      "date": "2022-09-06T18:30:00.000Z",
-      "productCondition": "second-hand",
-      "price": 4588,
-      "description": "To check snackbar",
-      "id": 9
-    },
-    {
-      "productName": "nema",
+      "productName": "Electric Racket",
       "productCategory": "electronics",
-      "date": "2022-11-14T18:30:00.000Z",
-      "productCondition": "refurbised",
-      "price": 5778,
-      "description": "Snack bar working",
-      "id": 10
-    },
-    {
-      "productName": "its_aman007@rediffmail.com",
-      "productCategory": "kids wear",
-      "date": "2022-11-09T18:30:00.000Z",
-      "productCondition": "refurbised",
+      "date": "2023-05-16T18:30:00.000Z",
+      "productCondition": "brand-new",
       "price": 1000,
-      "description": "Wow!!!!",
-      "id": 11
+      "description": "Electric racket with 2 years warranty!",
+      "id": 8
     },
     {
-      "productName": "Anjaan",
-      "productCategory": "kids wear",
-      "date": "2022-11-06T18:30:00.000Z",
-      "productCondition": "brand-new",
-      "price": 34555,
-      "description": "This is added successfully",
-      "id": 12
-    },
-    {
-      "productName": "hello",
-      "productCategory": "grocerry",
-      "date": "2022-10-31T18:30:00.000Z",
-      "productCondition": "refurbised",
-      "price": 8000,
-      "description": "nice",
-      "id": 13
-    },
-    {
-      "productName": "pratibha ",
+      "productName": "Ptron Earbuds",
       "productCategory": "electronics",
-      "date": "2022-11-01T18:30:00.000Z",
+      "date": "2023-06-11T18:30:00.000Z",
       "productCondition": "brand-new",
-      "price": 50000,
-      "description": "my new phone",
-      "id": 14
-    },
-    {
-      "productName": "sarvesh",
-      "productCategory": "mens wear",
-      "date": "2022-09-30T18:30:00.000Z",
-      "productCondition": "brand-new",
-      "price": 5900,
-      "description": "nike shoes",
-      "id": 15
-    },
-    {
-      "productName": "Don007",
-      "productCategory": "mens wear",
-      "date": "2022-11-16T18:30:00.000Z",
-      "productCondition": "second-hand",
-      "price": 100,
-      "description": "sabji wala",
-      "id": 16
-    },
-    {
-      "productName": "ramesh",
-      "productCategory": "mens wear",
-      "date": "2022-11-14T18:30:00.000Z",
-      "productCondition": "brand-new",
-      "price": 7000,
-      "description": "denim jeans - 2 set",
-      "id": 17
-    },
-    {
-      "productName": "Mr bean",
-      "productCategory": "mens wear",
-      "date": "2022-12-03T18:30:00.000Z",
-      "productCondition": "brand-new",
-      "price": 4500,
-      "description": "Good quality T-shirt",
-      "id": 18
-    },
-    {
-      "productName": "Mouser soft airgun",
-      "productCategory": "electronics",
-      "date": "2022-11-14T18:30:00.000Z",
-      "productCondition": "brand-new",
-      "price": 35000,
-      "description": "Nice product for kids",
-      "id": 19
-    },
-    {
-      "productName": "watch",
-      "productCategory": "accessories",
-      "date": "2022-12-06T18:30:00.000Z",
-      "productCondition": "second-hand",
-      "price": 9000,
-      "description": "apple watch",
-      "id": 20
+      "price": 800,
+      "description": "Order from Amazon - 1 year warranty",
+      "id": 9
     }
   ],
   "users": [
     {
-      "fname": "Aman",
-      "lname": "nema",
-      "phone": "+918357856433",
-      "email": "its_aman007@rediffmail.com",
+      "name": "Aman nema",
+      "phone": 7582845547,
+      "email": "aman07nema@gmail.com",
       "password": "Amannema@123",
       "id": 1
     },
     {
-      "fname": "Ashok",
-      "lname": "nema",
-      "phone": "9407864317",
-      "email": "ashoknema57@gmail.com",
-      "password": "papa@123",
+      "name": "Tuktuk",
+      "phone": 7222856633,
+      "email": "aman.nema01@infosys.com",
+      "password": "Jabalpur@482001",
       "id": 2
     },
     {
-      "fname": "Aman",
-      "lname": "nema",
-      "phone": "7222909056",
-      "email": "aman07nema@gmail.com",
-      "password": "tuktuk1994",
+      "name": "Bulbul",
+      "phone": 7582845547,
+      "email": "supriyayadav1998@gmail.com",
+      "password": "Tuktukbulbul",
       "id": 3
     },
     {
-      "fname": "Tuktuk",
-      "lname": "nema",
-      "phone": "+918357856433",
-      "email": "amannema@gmail.com",
-      "password": "12345678",
+      "name": "Aman007",
+      "phone": 8357856433,
+      "email": "its_aman007@rediffmail.com",
+      "password": "Amannema@1994",
       "id": 4
     },
     {
-      "fname": "abc",
-      "lname": "xyz",
-      "phone": "1234567890",
-      "email": "asdf@yzmail.com",
-      "password": "1234asdf",
+      "name": "user01",
+      "phone": 8357856433,
+      "email": "user01@gmail.com",
+      "password": "user007",
       "id": 5
-    },
-    {
-      "fname": "poonam",
-      "lname": "nema",
-      "phone": "7999856630",
-      "email": "poonamnema90@gmail.com",
-      "password": "asdfpoonam",
-      "id": 6
-    },
-    {
-      "fname": "Bulbul",
-      "lname": "Nema",
-      "phone": "7582845547",
-      "email": "bulbulnema1998@gmail.com",
-      "password": "bulbulnema",
-      "id": 7
-    },
-    {
-      "fname": "Tuktuk",
-      "lname": "nema",
-      "phone": "123456",
-      "email": "aman@nema.gmail.com",
-      "password": "tuktuk123",
-      "id": 8
-    },
-    {
-      "fname": "priyanka",
-      "lname": "nema",
-      "phone": "8827504735",
-      "email": "pri.nema77@gmail.com",
-      "password": "pinku@123",
-      "id": 9
-    },
-    {
-      "fname": "tony",
-      "lname": "stark",
-      "phone": "44455566687",
-      "email": "tony@stark.com",
-      "password": "ironsuitmark-42",
-      "id": 10
-    },
-    {
-      "fname": "wer",
-      "lname": "sdf",
-      "phone": "23456",
-      "email": "title@x.com",
-      "password": "spacex",
-      "id": 11
-    },
-    {
-      "fname": "sultan",
-      "lname": "mirza",
-      "phone": "8900100100",
-      "email": "sultan@mirza.com",
-      "password": "onceuponatimeinmumbai",
-      "id": 12
     }
   ],
   "profile": {
